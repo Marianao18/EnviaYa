@@ -560,8 +560,7 @@ export interface User {
 - `src/routes/*` — Definición de rutas.
 - `src/models/*` — Interfaces TypeScript (modelo de datos).
 - `src/data/mock/*` — Datos de ejemplo usados por la API.
-  ## Notas finales y siguientes pasos recomendados
+  ## Notas finales y siguientes pasos para la siguiente entrega
 - Revisar y completar las interfaces vacías en `src/models` para tener tipado estricto.
 - Implementar autenticación (JWT) y protección de rutas si se requiere.
 - Reemplazar `src/data/mock` por una capa de persistencia real (Postgres, MongoDB, etc.).
-- Agregar documentación OpenAPI/Swagger para obtener especificación consumible por terceros.
